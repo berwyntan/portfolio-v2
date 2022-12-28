@@ -45,74 +45,78 @@ const About = () => {
             </div>
             
             {/* desktop version */}
-            <div className="invisible md:visible flex md:flex-row md:-mt-80">
-                <div className="flex flex-col">
-                <div className="md:text pl-8 pr-2 md:ml-20 my-1">
+            <div className="invisible md:visible flex md:flex-row md:-mt-80 flex-wrap">
+                <div className="flex-1 flex-col">
+                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 I caught fire while learning coding. Coding lets me solve problems. I get to learn and try new stuff. This knowledge compounds over time.
                 </div>
-                <div className="md:text pl-8 pr-2 md:ml-20 my-1">
+                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 With less work in 2020 due the pandemic, I tried coding. Coding is like playing Lego (which I loved as a kid). I get to problem solve in a different context, which improved my skillset. Interior design was about understanding the viewpoints of others and anticipating problems. Coding was to me figuring out exactly what the problem is, finding a solution from elsewhere and applying it to your own situation.
                 </div>
-                <div className="md:text pl-8 pr-2 md:ml-20 my-1">                    
+                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">                    
                 This is not my first switch. First switched from engineering to interior design. Problems I faced include : Making best use of available space to build conducive workplaces. Co-ordinating with groups to make workflow concurrent and move faster. Troubleshooting unexpected problems. (Always expect Murphy's Law) 
                 </div>                
-                <div className="md:text pl-8 pr-2 md:ml-20 my-1">
+                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 Technology is irreplaceable in our daily life. It can provide leverage and improve our lives. I am interested in building solutions to solve problems. After hearing about the regret minimization framework, I made a mid career switch. It's now or never to try this out. I applied for a software engineering bootcamp at General Assembly. 
                 </div>
-                <div className="md:text pl-8 pr-2 md:ml-20 my-1">
+                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 I am a keen and fast learner, picking up new libraries and frameworks on my own.
                 </div>
-                <div className="md:text pl-8 pr-2 md:ml-20 my-1 mt-5">
+                </div>
+                <div className="p-3 md:w-32 lg:w-48">
+                    <img src={profile} alt="profile" className="md:w-32 lg:w-48 rounded"/>
+                </div>
+                </div>
+
+                <div className="md:text pl-8 pr-2 md:ml-20 my-2 mt-5 md:mb-6">
                 My tech stack includes:
                 </div>
                 <div className="invisible md:visible flex pl-8 pr-2 md:ml-20 my-1">
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={jsIcon} alt="javascript" title="javascript" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={htmlIcon} alt="html" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={cssIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={mongoIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={postgresIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={expressIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={reactIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={nodejsIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={jqueryIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={vitestIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={jestIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={cypressIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={gitIcon} alt="profile" className="rounded"/>
                     </div>
-                    <div className="p-1 w-12">
+                    <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={npmIcon} alt="profile" className="rounded"/>
                     </div>
-                </div>
-                </div>
-                <div className="p-3 w-4/5">
-                    <img src={profile} alt="profile" className="rounded"/>
-                </div>
+                
+                
+                
             </div>
                        
             
