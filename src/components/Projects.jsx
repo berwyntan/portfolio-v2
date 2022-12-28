@@ -7,19 +7,18 @@ const Projects = () => {
     const [ selectedProject, setSelectedProject ] = useState(projects[0])
 
     const selectProject = (url) => {
-        console.log(url)
+        
         const result = projects.find(project => project.githubLink === url)
-        console.log(result)
         setSelectedProject(result)
     }
 
     return (
-        <section id='projects' className='h-screen'>            
+        <section id='projects' className='md:h-screen'>            
             <div className="h-16 invisible">space</div>
             <div className='text-2xl font-bold md:text-3xl p-8 pb-2 md:ml-20'>
                 Projects.
             </div>
-            <div className="flex">
+            <div className="flex flex-col md:flex-row">
                 <ProjectSelector 
                     projects={projects}
                     selectProject={selectProject}

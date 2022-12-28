@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
     return (
         <>        
-        <section id='intro' className='h-screen'>
+        <section id='intro' className='md:h-screen'>
             <div className="h-28 invisible">space</div>
             <div className='text pt-8 ml-8 md:ml-28'>
                 Hi, my name is

@@ -16,7 +16,7 @@ import expressIcon from "../assets/express.png"
 
 const About = () => {
     return (
-        <section id='about' className='h-screen'>
+        <section id='about' className='md:h-screen'>
             <div className="h-16 invisible">space</div>
             <div className='text-2xl font-bold md:text-3xl p-8 pb-2 md:ml-20'>
                 About Me.
@@ -45,13 +45,16 @@ const About = () => {
             </div>
             
             {/* desktop version */}
-            <div className="invisible md:visible flex md:flex-row md:-mt-80 flex-wrap">
+            <div className="invisible md:visible flex md:flex-row md:-mt-80 flex-wrap h-0 md:h-3/5">
                 <div className="flex-1 flex-col">
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                I caught fire while learning coding. Coding lets me solve problems. I get to learn and try new stuff. This knowledge compounds over time.
+                I caught fire while learning coding.
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 With less work in 2020 due the pandemic, I tried coding. Coding is like playing Lego (which I loved as a kid). I get to problem solve in a different context, which improved my skillset. Interior design was about understanding the viewpoints of others and anticipating problems. Coding was to me figuring out exactly what the problem is, finding a solution from elsewhere and applying it to your own situation.
+                </div>
+                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
+                Coding lets me solve problems. I get to learn and try new stuff. This knowledge compounds over time.
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">                    
                 This is not my first switch. First switched from engineering to interior design. Problems I faced include : Making best use of available space to build conducive workplaces. Co-ordinating with groups to make workflow concurrent and move faster. Troubleshooting unexpected problems. (Always expect Murphy's Law) 
@@ -68,7 +71,7 @@ const About = () => {
                 </div>
                 </div>
 
-                <div className="md:text pl-8 pr-2 md:ml-20 my-2 mt-5 md:mb-6">
+                <div className="invisible md:visible md:text pl-8 pr-2 md:ml-20 my-2 mt-5 md:mb-6">
                 My tech stack includes:
                 </div>
                 <div className="invisible md:visible flex pl-8 pr-2 md:ml-20 my-1">
