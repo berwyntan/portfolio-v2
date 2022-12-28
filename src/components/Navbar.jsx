@@ -41,7 +41,7 @@ const Navbar = () => {
 
             <div className="flex-1">
                 <HashLink smooth to="/#intro">
-                    <div className="btn btn-ghost text-xl">Berwyn Tan</div>
+                    <div className="btn btn-ghost text-xl font-cursive w-40">Berwyn Tan</div>
                 </HashLink>                
             </div>
             

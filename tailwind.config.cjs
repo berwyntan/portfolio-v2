@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Nanum Gothic'],
+        'cursive': ['Poiret One']
       },
     }
   },
