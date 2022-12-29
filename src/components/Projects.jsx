@@ -15,10 +15,16 @@ const Projects = () => {
     return (
         <section id='projects' className='md:h-screen'>            
             <div className="h-1 -mt-10 invisible">space</div>
-            <div className='text-2xl font-bold md:text-3xl p-8 pb-2 md:ml-20'>
-                Projects.
+            <div className="flex items-baseline">
+                <div className='text-2xl font-bold md:text-3xl p-8 pb-2 md:ml-20'>
+                    Projects.
+                </div>
+                {/* <div className="text-sm">
+                    Click a project for more details.
+                </div> */}
             </div>
-            <div className="flex flex-col md:flex-row">
+            
+            <div className="flex flex-col md:flex-row z-0">
                 <ProjectSelector 
                     projects={projects}
                     selectProject={selectProject}

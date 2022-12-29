@@ -26,7 +26,7 @@ const Navbar = () => {
 
     return (
         <>
-        <div className={`navbar bg-slate-100 ${hidden}`}>
+        <div className={`navbar bg-slate-100 z-50 ${hidden}`}>
             {/* menu for small screens */}
             <div className="dropdown md:invisible">
                 <label tabIndex={0} className="btn btn-ghost btn-circle">
