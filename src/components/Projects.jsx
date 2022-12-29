@@ -14,7 +14,7 @@ const Projects = () => {
 
     return (
         <section id='projects' className='md:h-screen'>            
-            <div className="h-16 invisible">space</div>
+            <div className="h-1 -mt-10 invisible">space</div>
             <div className='text-2xl font-bold md:text-3xl p-8 pb-2 md:ml-20'>
                 Projects.
             </div>

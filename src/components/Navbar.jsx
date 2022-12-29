@@ -35,7 +35,7 @@ const Navbar = () => {
                 <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                     <li><div className="text-xl">About</div></li>
                     <li><div className="text-xl">Projects</div></li>
-                    <li><div className="text-xl">Experience</div></li>
+                    {/* <li><div className="text-xl">Experience</div></li> */}
                 </ul>
             </div>
 
@@ -54,9 +54,9 @@ const Navbar = () => {
                     <div className="btn btn-ghost">Projects</div>
                 </HashLink>
 
-                <HashLink smooth to="/#experience">
+                {/* <HashLink smooth to="/#experience">
                     <div className="btn btn-ghost">Experience</div>
-                </HashLink>
+                </HashLink> */}
 
                 <HashLink smooth to="/#contact">
                     <div className="btn btn-ghost">Contact</div>

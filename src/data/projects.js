@@ -5,7 +5,12 @@ export default [
         gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672236968/uc_wovjec.gif",
         header: "Techbar",
         subHeader: "E-commerce",
-        description: "MERN stack E-commerce web app with authentication / persistent login using cookies. Contributed to backend.",
+        description: 
+            `Collaborate as a team to build a MERN stack e-commerce application.
+            Focused on backend, implementing RESTful API. 
+            Proactively prevent risk of server failure using validation and error catching.
+            Wrote code in modular components using MVC design pattern.
+            Support team to integrate the front and back end API functions.`,
         appLink: "https://sore-blue-turtle-hat.cyclic.app",
         githubLink: "https://github.com/berwyntan/techbar"
     },
@@ -15,7 +20,10 @@ export default [
         gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672237123/uc_lcswl9.gif",
         header: "Astronomy App II",
         subHeader: "Image viewer",
-        description: "MERN stack image viewer styled as Instagram/Pinterest using NASA’s APOD API for images/posts. Authentication / persistent login with JWTs, E2E testing with Cypress",
+        description: 
+            `Design frontend image viewer in the style of Instagram & Pinterest using React.
+            Converted app to fullstack (MERN), enabling user authentication and personalised albums.
+            Test with Cypress (end-to-end).`,
         appLink: "https://pink-delightful-hedgehog.cyclic.app/",
         githubLink: "https://github.com/berwyntan/astronomy-app-2"
     },
@@ -35,7 +43,7 @@ export default [
         gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672237151/uc_ybrc9g.gif",
         header: "Candy Crush Clone",
         subHeader: "Desktop game",
-        description: "A web browser simple version of the popular game",
+        description: "A simple web browser version of the popular game",
         appLink: "https://candycrushgame-alpha.vercel.app",
         githubLink: "https://github.com/berwyntan/candycrushgame"
     },

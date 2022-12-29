@@ -18,7 +18,7 @@ const ProjectFocus = ({ project }) => {
     return (
         <>
             <div 
-                className="card lg:card-side bg-base-100 shadow-xl"
+                className="card bg-base-100 shadow-xl lg:max-w-5xl lg:ml-10"
                 onMouseOver={handleMouseover}
                 onMouseOut={handleMouseOut}
             >
@@ -26,7 +26,7 @@ const ProjectFocus = ({ project }) => {
                     <img 
                         src={isActive ? project.gif : project.preview} 
                         alt="project"
-                        className="my-2"
+                        className="my-2 lg:max-w-6xl object-contain p-1"
                     />
                 </figure>
                 <div className="card-body">
@@ -39,10 +39,10 @@ const ProjectFocus = ({ project }) => {
                     <div className="">Tech: {project.techStack}</div>
                     <div className="card-actions justify-end items-center">
                     <a href={project.githubLink} target="_blank">
-                        <img className="w-8 mx-1" src={github} alt="github"/>
+                        <img className="w-8 mx-2" src={github} alt="github"/>
                     </a>  
                     <a href={project.appLink} target="_blank">
-                        <img className="w-8 mx-1" src={newTab} alt="app"/>
+                        <img className="w-8 mx-2" src={newTab} alt="app"/>
                     </a>  
                     </div>
                 </div>

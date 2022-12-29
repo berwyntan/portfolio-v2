@@ -18,7 +18,7 @@ function App() {
         <Intro />
         <About />
         <Projects />
-        <Experience />
+        {/* <Experience /> */}
         <Contact />
       </BrowserRouter>
     </>

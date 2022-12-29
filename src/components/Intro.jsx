@@ -1,4 +1,4 @@
-import React from 'react'
+import scrolldown from '../assets/scrolldown.png'
 
 const Intro = () => {
     return (
@@ -22,11 +22,21 @@ const Intro = () => {
                 stakeholder management, and business processes.
             </div>
             <div className='text-lg md:text-xl pl-8 pr-2 md:ml-20 my-1'>
-                I am passionate about building solutions to solve problems.
-            </div>
-            <div className='text-lg md:text-xl pl-8 pr-2 md:ml-20 my-1'>
                 Software can provide leverage that lets us save time and money.
             </div>
+            <div className='text-lg md:text-xl pl-8 pr-2 md:ml-20 my-1'>
+                I am passionate about building solutions to solve problems.
+            </div>
+            <img src={scrolldown} alt="scroll down" className='h-16'/>       
+            <div className='flex flex-col items-start mt-16'>
+                <div className='invisible ml-0 md:visible text md:text-lg pl-8 pr-2 md:ml-20 text-slate-700'>
+                    Scroll down to see my projects and tech stack.
+                </div>
+                <div className='text md:invisible pl-8 pr-2 text-slate-700'>
+                    Swipe down to see my projects and tech stack.
+                </div>
+            </div>    
+             
         </section>
         </>
     )

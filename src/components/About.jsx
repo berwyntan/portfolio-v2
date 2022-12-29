@@ -13,11 +13,12 @@ import jqueryIcon from "../assets/jquery.png"
 import npmIcon from "../assets/npm.png"
 import vitestIcon from "../assets/vitest.svg"
 import expressIcon from "../assets/express.png"
+import tailwindIcon from "../assets/tailwind.png"
 
 const About = () => {
     return (
         <section id='about' className='md:h-screen'>
-            <div className="h-16 invisible">space</div>
+            <div className="h-10 invisible">space</div>
             <div className='text-2xl font-bold md:text-3xl p-8 pb-2 md:ml-20'>
                 About Me.
             </div>
@@ -26,44 +27,44 @@ const About = () => {
                 <img src={profile} alt="profile" className="rounded w-40"/>
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1 mt-5">
-                I caught fire learning coding. Coding lets me solve problems. I enjoy problem solving.
+                I caught fire while learning coding.
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1">
-                Interior design includes project management and stakeholder management. Which requires constant problem solving.
+                With less work in 2020 due the pandemic, I tried coding. Coding was to me figuring out exactly what the problem is, finding a solution from elsewhere and applying it to your own situation.
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1">
-                I made the switch to software engineering as it's now or never. 
+                Coming from interior design, problems I faced were understanding the viewpoints of others and anticipating problems. Coding adds to my problem solving skillset.
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1">
-                I am passionate about building things that can provide leverage and improve lives.
+                I work on improving my knowledge by picking up new libraries and frameworks on my own. Currently I am learning data structures, algorithms and Leetcode.
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1">
-                I am a keen and fast learner, picking up new libraries and frameworks on my own.
+                
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1">
                 
             </div>
             
             {/* desktop version */}
-            <div className="invisible md:visible flex md:flex-row md:-mt-80 flex-wrap h-0 md:h-3/5">
+            <div className="invisible md:visible flex md:flex-row md:-mt-96 flex-wrap h-0 md:h-3/5">
                 <div className="flex-1 flex-col">
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 I caught fire while learning coding.
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                With less work in 2020 due the pandemic, I tried coding. Coding is like playing Lego (which I loved as a kid). I get to problem solve in a different context, which improved my skillset. Interior design was about understanding the viewpoints of others and anticipating problems. Coding was to me figuring out exactly what the problem is, finding a solution from elsewhere and applying it to your own situation.
+                With less work in 2020 due the pandemic, I tried coding. Coding is like playing Lego (which I loved as a kid). Coding was to me figuring out exactly what the problem is, finding a solution from elsewhere and applying it to your own situation. Mix and match Lego pieces.
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                Coding lets me solve problems. I get to learn and try new stuff. This knowledge compounds over time.
+                Coming from interior design, problems I faced were understanding the viewpoints of others and anticipating problems. Coding adds to my problem solving skillset.
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">                    
-                This is not my first switch. First switched from engineering to interior design. Problems I faced include : Making best use of available space to build conducive workplaces. Co-ordinating with groups to make workflow concurrent and move faster. Troubleshooting unexpected problems. (Always expect Murphy's Law) 
+                This is not my first switch. I switched from engineering to interior design by applying the systematic processes and 3D design drawing skills I picked up to my new field.
                 </div>                
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                Technology is irreplaceable in our daily life. It can provide leverage and improve our lives. I am interested in building solutions to solve problems. After hearing about the regret minimization framework, I made a mid career switch. It's now or never to try this out. I applied for a software engineering bootcamp at General Assembly. 
+                Technology is irreplaceable in our daily life. It can provide leverage and improve our lives. Being passionate about building solutions to solve problems, I decided to make a career switch. I applied for a software engineering bootcamp at General Assembly. 
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                I am a keen and fast learner, picking up new libraries and frameworks on my own.
+                I work on improving my knowledge by picking up new libraries and frameworks on my own. Currently I am learning data structures, algorithms and Leetcode.
                 </div>
                 </div>
                 <div className="p-3 md:w-32 lg:w-48">
@@ -71,7 +72,7 @@ const About = () => {
                 </div>
                 </div>
 
-                <div className="invisible md:visible md:text pl-8 pr-2 md:ml-20 my-2 mt-5 md:mb-6">
+                <div className="invisible lg:visible md:text lg:text-lg pl-8 pr-2 md:ml-20 my-2 -mt-5 md:mb-6">
                 My tech stack includes:
                 </div>
                 <div className="invisible md:visible flex pl-8 pr-2 md:ml-20 my-1">
@@ -79,7 +80,7 @@ const About = () => {
                         <img src={jsIcon} alt="javascript" title="javascript" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={htmlIcon} alt="html" className="rounded"/>
+                        <img src={htmlIcon} alt="html" title="html" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={cssIcon} alt="profile" className="rounded"/>
@@ -110,6 +111,9 @@ const About = () => {
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={cypressIcon} alt="profile" className="rounded"/>
+                    </div>
+                    <div className="p-1 w-8 lg:w-12 mx-1">
+                        <img src={tailwindIcon} alt="profile" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
                         <img src={gitIcon} alt="profile" className="rounded"/>
