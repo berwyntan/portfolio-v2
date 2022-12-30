@@ -46,7 +46,7 @@ const About = () => {
             </div>
             
             {/* desktop version */}
-            <div className="invisible md:visible flex md:flex-row md:-mt-80 flex-wrap h-0 md:h-3/5">
+            <div className="invisible md:visible flex md:flex-row md:-mt-72 flex-wrap h-0 md:h-3/5">
                 <div className="flex-1 flex-col">
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 I caught fire while learning coding.
