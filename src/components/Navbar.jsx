@@ -33,9 +33,22 @@ const Navbar = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                 </label>
                 <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><div className="text-xl">About</div></li>
-                    <li><div className="text-xl">Projects</div></li>
-                    {/* <li><div className="text-xl">Experience</div></li> */}
+                    <li>
+                        <HashLink smooth to="/#about">
+                        <div className="text-xl">About</div>
+                        </HashLink>
+                    </li>
+                    <li>
+                        <HashLink smooth to="/#projects">
+                        <div className="text-xl">Projects</div>
+                        </HashLink>
+                    </li>
+                    <li>
+                        <HashLink smooth to="/#contact">
+                        <div className="text-xl">Contact</div>
+                        </HashLink>
+                    </li>
+                    
                 </ul>
             </div>
 
@@ -61,7 +74,11 @@ const Navbar = () => {
                 <HashLink smooth to="/#contact">
                     <div className="btn btn-ghost">Contact</div>
                 </HashLink>
-                <div className="btn btn-ghost">Resume</div>
+                <div className="btn btn-ghost">
+                    <a href="https://www.dropbox.com/s/y5y7wlwkfoa9mfn/CV%20LATEST.pdf?dl=0" target="_blank">
+                        Resume
+                    </a>                    
+                </div>
             </div>                
                         
         </div>

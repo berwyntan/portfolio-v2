@@ -1,5 +1,21 @@
 export default [
     {
+        techStack: "PostgreSQL, ExpressJS, React, NodeJS, React Query, TailwindCSS, Twilio, Vitest, Mock Service Worker",
+        preview: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672368878/GroupBuyPreview_lsf9xb.png",
+        gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672368879/GroupBuyGif_plrika.gif",
+        header: "GroupBuy",
+        subHeader: "E-commerce",
+        description: 
+            `Build PERN stack application with client facing e-commerce storefront and admin interface.
+            Implement user-friendly admin dashboard that uploads photos, sends WhatsApp messages with 1 click.
+            Optimize app performance using code splitting and caching with React Query.
+            Develop responsive design for mobile and desktop, using TailwindCSS.
+            Test using Vitest, React Testing Library, Mock Service Worker.
+            `,
+        appLink: "https://confused-puce-cuttlefish.cyclic.app",
+        githubLink: "https://github.com/berwyntan/group-buy"
+    },
+    {
         techStack: "MongoDB, ExpressJS, React, NodeJS, Bootstrap",
         preview: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672236942/uc_i9fsgt.gif",
         gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672236968/uc_wovjec.gif",
@@ -43,7 +59,8 @@ export default [
         gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672237151/uc_ybrc9g.gif",
         header: "Candy Crush Clone",
         subHeader: "Desktop game",
-        description: "A simple web browser version of the popular game",
+        description: `A simple web browser version of the popular game.
+        Implement drag and drop of candies.`,
         appLink: "https://candycrushgame-alpha.vercel.app",
         githubLink: "https://github.com/berwyntan/candycrushgame"
     },

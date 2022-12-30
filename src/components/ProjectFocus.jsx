@@ -26,7 +26,7 @@ const ProjectFocus = ({ project }) => {
                     <img 
                         src={isActive ? project.gif : project.preview} 
                         alt="project"
-                        className="my-2 lg:max-w-6xl object-contain p-1"
+                        className="my-2 lg:max-w-6xl max-h-96 object-contain p-1"
                     />
                 </figure>
                 <div className="card-body">

@@ -26,27 +26,27 @@ const About = () => {
             <div className="text-lg md:invisible pl-8 mr-4 my-2">
                 <img src={profile} alt="profile" className="rounded w-40"/>
             </div>
-            <div className="text-lg md:invisible pl-8 mr-4 my-1 mt-5">
+            <div className="text-lg md:invisible pl-8 mr-4 my-1 mt-5 md:-mt-7">
                 I caught fire while learning coding.
             </div>
-            <div className="text-lg md:invisible pl-8 mr-4 my-1">
+            <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
                 With less work in 2020 due the pandemic, I tried coding. Coding was to me figuring out exactly what the problem is, finding a solution from elsewhere and applying it to your own situation.
             </div>
-            <div className="text-lg md:invisible pl-8 mr-4 my-1">
+            <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
                 Coming from interior design, problems I faced were understanding the viewpoints of others and anticipating problems. Coding adds to my problem solving skillset.
             </div>
-            <div className="text-lg md:invisible pl-8 mr-4 my-1">
+            <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
                 I work on improving my knowledge by picking up new libraries and frameworks on my own. Currently I am learning data structures, algorithms and Leetcode.
             </div>
-            <div className="text-lg md:invisible pl-8 mr-4 my-1">
+            <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
                 
             </div>
-            <div className="text-lg md:invisible pl-8 mr-4 my-1">
+            <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
                 
             </div>
             
             {/* desktop version */}
-            <div className="invisible md:visible flex md:flex-row md:-mt-96 flex-wrap h-0 md:h-3/5">
+            <div className="invisible md:visible flex md:flex-row md:-mt-80 flex-wrap h-0 md:h-3/5">
                 <div className="flex-1 flex-col">
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 I caught fire while learning coding.
@@ -77,49 +77,49 @@ const About = () => {
                 </div>
                 <div className="invisible md:visible flex pl-8 pr-2 md:ml-20 my-1">
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={jsIcon} alt="javascript" title="javascript" className="rounded"/>
+                        <img src={jsIcon} alt="Javascript" title="Javascript" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={htmlIcon} alt="html" title="html" className="rounded"/>
+                        <img src={htmlIcon} alt="HTML" title="HTML" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={cssIcon} alt="profile" className="rounded"/>
+                        <img src={cssIcon} alt="CSS" title="CSS" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={mongoIcon} alt="profile" className="rounded"/>
+                        <img src={mongoIcon} alt="MongoDB" title="MongoDB" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={postgresIcon} alt="profile" className="rounded"/>
+                        <img src={postgresIcon} alt="PostgreSQL" title="PostgreSQL" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={expressIcon} alt="profile" className="rounded"/>
+                        <img src={expressIcon} alt="ExpressJS" title="ExpressJS" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={reactIcon} alt="profile" className="rounded"/>
+                        <img src={reactIcon} alt="React" title="React" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={nodejsIcon} alt="profile" className="rounded"/>
+                        <img src={nodejsIcon} alt="NodeJS" title="NodeJS" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={jqueryIcon} alt="profile" className="rounded"/>
+                        <img src={jqueryIcon} alt="jQuery" title="jQuery" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={vitestIcon} alt="profile" className="rounded"/>
+                        <img src={vitestIcon} alt="Vitest" title="Vitest" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={jestIcon} alt="profile" className="rounded"/>
+                        <img src={jestIcon} alt="Jest" title="Jest" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={cypressIcon} alt="profile" className="rounded"/>
+                        <img src={cypressIcon} alt="Cypress" title="Cypress" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={tailwindIcon} alt="profile" className="rounded"/>
+                        <img src={tailwindIcon} alt="TailwindCSS" title="TailwindCSS" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={gitIcon} alt="profile" className="rounded"/>
+                        <img src={gitIcon} alt="Git" title="Git" className="rounded"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={npmIcon} alt="profile" className="rounded"/>
+                        <img src={npmIcon} alt="npm" title="npm" className="rounded"/>
                     </div>
                 
                 
