@@ -27,16 +27,16 @@ const About = () => {
                 <img src={profile} alt="profile" className="rounded w-40"/>
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1 mt-5 md:-mt-7">
-                I caught fire while learning coding.
+                Something unexpected happened when I learned coding.
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
-                With less work in 2020 due the pandemic, I tried coding. Coding was to me figuring out exactly what the problem is, finding a solution from elsewhere and applying it to your own situation.
+                With less work in 2020 due the pandemic, I tried coding with Python. Learning how to code got me hooked. Coding reminded me of playing Lego (which I loved as a kid), something I did not expect. I had to figure out exactly what the problem is, find a solution and apply it based on the context. Like mixing and matching Lego pieces.
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
                 Coming from interior design, problems I faced were understanding the viewpoints of others and anticipating problems. Coding adds to my problem solving skillset.
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
-                I work on improving my knowledge by picking up new libraries and frameworks on my own. Currently I am learning data structures, algorithms and Leetcode.
+                I work on improving my knowledge by picking up new libraries and frameworks on my own. Currently I am learning data structures, algorithms and practicing Leetcode.
             </div>
             <div className="text-lg md:invisible pl-8 mr-4 my-1 md:-mt-2">
                 
@@ -49,10 +49,10 @@ const About = () => {
             <div className="invisible md:visible flex md:flex-row md:-mt-64 flex-wrap h-0 md:h-3/5">
                 <div className="flex-1 flex-col">
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                I caught fire while learning coding.
+                Something unexpected happened when I learned coding.
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                With less work in 2020 due the pandemic, I tried coding. Coding is like playing Lego (which I loved as a kid). Coding was to me figuring out exactly what the problem is, finding a solution from elsewhere and applying it to your own situation. Mix and match Lego pieces.
+                With less work in 2020 due the pandemic, I tried coding with Python. Learning to code got me hooked. Coding reminded me of playing Lego as a kid, something I did not expect. I had to figure out exactly what the problem is, find a solution and apply it based on the context. Like mixing and matching Lego pieces.
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 Coming from interior design, problems I faced were understanding the viewpoints of others and anticipating problems. Coding adds to my problem solving skillset.
@@ -61,10 +61,10 @@ const About = () => {
                 This is not my first switch. I switched from engineering to interior design by applying the systematic processes and 3D design drawing skills I picked up to my new field.
                 </div>                
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                Technology is irreplaceable in our daily life. It can provide leverage and improve our lives. Being passionate about building solutions to solve problems, I decided to make a career switch. I applied for a software engineering bootcamp at General Assembly. 
+                Technology is irreplaceable in our daily life. It can provide leverage and improve our lives. Being passionate about building solutions to solve problems, I decided to make a career switch. I applied for a software engineering bootcamp at General Assembly. At General Assembly, I learned MERN & PERN stack.
                 </div>
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
-                I work on improving my knowledge by picking up new libraries and frameworks on my own. Currently I am learning data structures, algorithms and Leetcode.
+                I work on improving my knowledge by picking up new libraries and frameworks on my own. Currently I am learning data structures, algorithms and practicing Leetcode.
                 </div>
                 </div>
                 <div className="p-3 md:w-32 lg:w-48">
