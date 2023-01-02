@@ -1,19 +1,32 @@
 export default [
     {
-        techStack: "PostgreSQL, ExpressJS, React, NodeJS, React Query, TailwindCSS, Twilio, Vitest, Mock Service Worker",
+        techStack: "PostgreSQL, ExpressJS, React, NodeJS, React Query, TailwindCSS, Twilio, JWT, Vitest, Mock Service Worker",
         preview: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672368878/GroupBuyPreview_lsf9xb.png",
         gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672368879/GroupBuyGif_plrika.gif",
         header: "GroupBuy",
         subHeader: "E-commerce",
         description: 
-            `Build PERN stack application with client facing e-commerce storefront and admin interface.
-            Implement user-friendly admin dashboard that uploads photos, sends WhatsApp messages with 1 click.
-            Optimize app performance using code splitting and caching with React Query.
-            Develop responsive design for mobile and desktop, using TailwindCSS.
-            Test using Vitest, React Testing Library, Mock Service Worker.
+            `Pain point: Groupbuy organizers spend too much time using WhatsApp, Google Forms to manage orders, payment and fulfilment.
+            Proposed solution: A mobile/desktop responsive customer facing ecommerce storefront with admin dashboard to manage listings, orders, payment, fulfilment and collection.
+            App includes integration with WhatsApp to send preset messages with one click, avoiding repetition and saving time.
+            Carried out automated testing with Vitest for this project.
             `,
         appLink: "https://confused-puce-cuttlefish.cyclic.app",
         githubLink: "https://github.com/berwyntan/group-buy"
+    },
+    {
+        techStack: "PostgreSQL, ExpressJS, React, NodeJS, TailwindCSS, JWT",
+        preview: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672669072/todolist-preview_js1cn2.gif",
+        gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672669075/todolist-gif2_rp588w.gif",
+        header: "ToDoList",
+        subHeader: "Productivity",
+        description: 
+            `Pain point: I like to see completed todos get checked off and disappearing, but I would like to reuse them so I do not have to type them again.
+            Proposed solution: A mobile/desktop responsive app with two lists: todo and completed. Completed items can be repeated by sending them back into todos.
+            Future improvements: Tracking of repeated todos so that it becomes a mini habit tracker.
+            `,
+        appLink: "https://plain-tick-jodhpurs.cyclic.app",
+        githubLink: "https://github.com/berwyntan/todolist-cs50"
     },
     {
         techStack: "MongoDB, ExpressJS, React, NodeJS, Bootstrap",
@@ -37,7 +50,7 @@ export default [
         header: "Astronomy App II",
         subHeader: "Image viewer",
         description: 
-            `Design frontend image viewer in the style of Instagram & Pinterest using React.
+            `Image viewer in the style of Instagram & Pinterest using NASA's Astronomy Photo of the Day API.
             Converted app to fullstack (MERN), enabling user authentication and personalised albums.
             Test with Cypress (end-to-end).`,
         appLink: "https://pink-delightful-hedgehog.cyclic.app/",
