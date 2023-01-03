@@ -13,10 +13,10 @@ const Projects = () => {
     }
 
     return (
-        <section id='projects' className='md:h-screen'>            
-            <div className="h-1 -mt-10 invisible">space</div>
+        <section id='projects' className=''>            
+            <div className="h-6 md:-mt-12 invisible">space</div>
             <div className="flex items-baseline">
-                <div className='text-2xl font-bold md:text-3xl p-8 pb-2 md:ml-20'>
+                <div className='text-2xl font-bold md:text-3xl p-8 pb-2 md:ml-20 md:mb-10'>
                     Projects.
                 </div>
                 {/* <div className="text-sm">
