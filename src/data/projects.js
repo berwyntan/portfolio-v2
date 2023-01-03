@@ -16,8 +16,8 @@ export default [
     },
     {
         techStack: "PostgreSQL, ExpressJS, React, NodeJS, TailwindCSS, JWT",
-        preview: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672669072/todolist-preview_js1cn2.gif",
-        gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672669075/todolist-gif2_rp588w.gif",
+        preview: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672755751/todolist-preview_wlfsqe.gif",
+        gif: "https://res.cloudinary.com/dkilrhnk7/image/upload/v1672755752/todolist-gif2_uxlpph.gif",
         header: "ToDoList",
         subHeader: "Productivity",
         description: 
