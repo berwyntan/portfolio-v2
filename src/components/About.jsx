@@ -51,19 +51,19 @@ const About = () => {
                 <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
                 Something unexpected happened when I learned coding.
                 </div>
-                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
+                <div className="md:text lg:text pl-8 pr-2 md:ml-20 my-1">
                 With less work in 2020 due the pandemic, I tried coding with Python. Learning to code got me hooked. Coding reminded me of playing Lego as a kid, something I did not expect. I had to figure out exactly what the problem is, find a solution and apply it based on the context. Like mixing and matching Lego pieces.
                 </div>
-                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
+                <div className="md:text lg:text pl-8 pr-2 md:ml-20 my-1">
                 Coming from interior design, problems I faced were understanding the viewpoints of others and anticipating problems. Coding adds to my problem solving skillset.
                 </div>
-                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">                    
+                <div className="md:text lg:text pl-8 pr-2 md:ml-20 my-1">                    
                 This is not my first switch. I switched from engineering to interior design by applying the systematic processes and 3D design drawing skills I picked up to my new field.
                 </div>                
-                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
+                <div className="md:text lg:text pl-8 pr-2 md:ml-20 my-1">
                 Technology is irreplaceable in our daily life. It can provide leverage and improve our lives. Being passionate about building solutions to solve problems, I decided to make a career switch. I applied for a software engineering bootcamp at General Assembly. At General Assembly, I learned MERN & PERN stack.
                 </div>
-                <div className="md:text lg:text-lg pl-8 pr-2 md:ml-20 my-1">
+                <div className="md:text lg:text pl-8 pr-2 md:ml-20 my-1">
                 I work on improving my knowledge by picking up new libraries and frameworks on my own. Currently I am learning data structures, algorithms and practicing Leetcode.
                 </div>
                 </div>
@@ -72,7 +72,7 @@ const About = () => {
                 </div>
                 </div>
 
-                <div className="invisible lg:visible md:text lg:text-lg pl-8 pr-2 md:ml-20 my-2 -mt-5 md:mb-6">
+                <div className="invisible lg:visible md:text lg:text pl-8 pr-2 md:ml-20 my-2 -mt-5 md:mb-6">
                 My tech stack includes:
                 </div>
                 <div className="invisible md:visible flex pl-8 pr-2 md:ml-20 my-1">
