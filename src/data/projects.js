@@ -53,7 +53,7 @@ export default [
             `Image viewer in the style of Instagram & Pinterest using NASA's Astronomy Photo of the Day API.
             Converted app to fullstack (MERN), enabling user authentication and personalised albums.
             Test with Cypress (end-to-end).`,
-        appLink: "https://pink-delightful-hedgehog.cyclic.app/",
+        appLink: "https://astronomy-app-2-client.vercel.app",
         githubLink: "https://github.com/berwyntan/astronomy-app-2"
     },
     {
