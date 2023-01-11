@@ -63,7 +63,7 @@ const About = () => {
                 </div>
                 </div>
                 <div className="p-3 md:w-32 lg:w-48">
-                    <img src={profile} alt="profile" className="md:w-32 lg:w-48 rounded"/>
+                    <img data-src={profile} alt="profile" className="md:w-32 lg:w-48 rounded lozad"/>
                 </div>
                 </div>
 
@@ -72,49 +72,49 @@ const About = () => {
                 </div>
                 <div className="invisible md:visible flex pl-8 pr-2 md:ml-20 my-1 mb-12">
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={jsIcon} alt="Javascript" title="Javascript" className="rounded"/>
+                        <img data-src={jsIcon} alt="Javascript" title="Javascript" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={htmlIcon} alt="HTML" title="HTML" className="rounded"/>
+                        <img data-src={htmlIcon} alt="HTML" title="HTML" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={cssIcon} alt="CSS" title="CSS" className="rounded"/>
+                        <img data-src={cssIcon} alt="CSS" title="CSS" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={mongoIcon} alt="MongoDB" title="MongoDB" className="rounded"/>
+                        <img data-src={mongoIcon} alt="MongoDB" title="MongoDB" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={postgresIcon} alt="PostgreSQL" title="PostgreSQL" className="rounded"/>
+                        <img data-src={postgresIcon} alt="PostgreSQL" title="PostgreSQL" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={expressIcon} alt="ExpressJS" title="ExpressJS" className="rounded"/>
+                        <img data-src={expressIcon} alt="ExpressJS" title="ExpressJS" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={reactIcon} alt="React" title="React" className="rounded"/>
+                        <img data-src={reactIcon} alt="React" title="React" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={nodejsIcon} alt="NodeJS" title="NodeJS" className="rounded"/>
+                        <img data-src={nodejsIcon} alt="NodeJS" title="NodeJS" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={jqueryIcon} alt="jQuery" title="jQuery" className="rounded"/>
+                        <img data-src={jqueryIcon} alt="jQuery" title="jQuery" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={vitestIcon} alt="Vitest" title="Vitest" className="rounded"/>
+                        <img data-src={vitestIcon} alt="Vitest" title="Vitest" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={jestIcon} alt="Jest" title="Jest" className="rounded"/>
+                        <img data-src={jestIcon} alt="Jest" title="Jest" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={cypressIcon} alt="Cypress" title="Cypress" className="rounded"/>
+                        <img data-src={cypressIcon} alt="Cypress" title="Cypress" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={tailwindIcon} alt="TailwindCSS" title="TailwindCSS" className="rounded"/>
+                        <img data-src={tailwindIcon} alt="TailwindCSS" title="TailwindCSS" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={gitIcon} alt="Git" title="Git" className="rounded"/>
+                        <img data-src={gitIcon} alt="Git" title="Git" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
-                        <img src={npmIcon} alt="npm" title="npm" className="rounded"/>
+                        <img data-src={npmIcon} alt="npm" title="npm" className="rounded lozad"/>
                     </div>
                 
                 

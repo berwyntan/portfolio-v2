@@ -27,22 +27,22 @@ const Contact = () => {
                 
                 <div className="p-1 w-10 lg:w-12 mx-5">
                     <a href="https://www.linkedin.com/in/berwyn-tan" target="_blank">
-                    <img src={linkedinIcon} alt="linkedin" className="rounded"/>
+                    <img data-src={linkedinIcon} alt="linkedin" className="rounded lozad"/>
                     </a>
                 </div>
                 <div className="p-1 w-10 lg:w-12 mx-5">
                     <a href="https://github.com/berwyntan" target="_blank">
-                    <img src={githubIcon} alt="github" className="rounded"/>
+                    <img data-src={githubIcon} alt="github" className="rounded lozad"/>
                     </a>
                 </div>
                 <div className="p-1 w-10 lg:w-12 mx-5">
                     <a href="https://twitter.com/berwyntan" target="_blank">
-                    <img src={twitterIcon} alt="twitter" className="rounded"/>
+                    <img data-src={twitterIcon} alt="twitter" className="rounded lozad"/>
                     </a>
                 </div>
                 <div className="p-1 w-10 lg:w-12 mx-5">
                     <a href="https://leetcode.com/berwyntan/" target="_blank">
-                    <img src={leetcodeIcon} alt="leetcode" className="rounded"/>
+                    <img data-src={leetcodeIcon} alt="leetcode" className="rounded lozad"/>
                     </a>
                 </div>
             </div>
