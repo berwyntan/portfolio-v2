@@ -23,7 +23,7 @@ export default [
         description: 
             `Pain point: I like to see completed todos get checked off and disappearing, but I would like to reuse them so I do not have to type them again.
             Proposed solution: A mobile/desktop responsive app with two lists: todo and completed. Completed items can be repeated by sending them back into todos.
-            Future improvements: Tracking of repeated todos so that it becomes a mini habit tracker.
+            Comes with a heatmap like Github for tracking of repeated todos like a mini habit tracker.
             `,
         appLink: "https://plain-tick-jodhpurs.cyclic.app",
         githubLink: "https://github.com/berwyntan/todolist-cs50"

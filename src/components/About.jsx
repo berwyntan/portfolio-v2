@@ -14,6 +14,7 @@ import npmIcon from "../assets/npm.png"
 import vitestIcon from "../assets/vitest.svg"
 import expressIcon from "../assets/express.png"
 import tailwindIcon from "../assets/tailwind.png"
+import tsIcon from "../assets/typescript.png"
 
 const About = () => {
     return (
@@ -73,6 +74,9 @@ const About = () => {
                 <div className="invisible md:visible flex pl-8 pr-2 md:ml-20 my-1 mb-12">
                     <div className="p-1 w-8 lg:w-12 mx-1">
                         <img data-src={jsIcon} alt="Javascript" title="Javascript" className="rounded lozad"/>
+                    </div>
+                    <div className="p-1 w-8 lg:w-12 mx-1">
+                        <img data-src={tsIcon} alt="Typescript" title="Typescript" className="rounded lozad"/>
                     </div>
                     <div className="p-1 w-8 lg:w-12 mx-1">
                         <img data-src={htmlIcon} alt="HTML" title="HTML" className="rounded lozad"/>
