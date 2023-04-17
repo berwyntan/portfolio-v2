@@ -2,6 +2,7 @@ import linkedinIcon from '../assets/linkedin.png'
 import githubIcon from '../assets/github.png'
 import twitterIcon from '../assets/twitter.png'
 import leetcodeIcon from '../assets/leetcode.png'
+import instagramIcon from '../assets/instagramIcon.png'
 
 const Contact = () => {
     return (
@@ -43,6 +44,11 @@ const Contact = () => {
                 <div className="p-1 w-10 lg:w-12 mx-5">
                     <a href="https://leetcode.com/berwyntan/" target="_blank">
                     <img data-src={leetcodeIcon} alt="leetcode" className="rounded lozad"/>
+                    </a>
+                </div>
+                <div className="p-1 w-10 lg:w-12 mx-5">
+                    <a href="https://leetcode.com/berwyntan/" target="_blank">
+                    <img data-src={instagramIcon} alt="instagram" className="rounded lozad"/>
                     </a>
                 </div>
             </div>
