@@ -2,7 +2,7 @@ import linkedinIcon from '../assets/linkedin.png'
 import githubIcon from '../assets/github.png'
 import twitterIcon from '../assets/twitter.png'
 import leetcodeIcon from '../assets/leetcode.png'
-import instagramIcon from '../assets/instagramIcon.png'
+import instagramIcon from '../assets/instagram.png'
 
 const Contact = () => {
     return (
